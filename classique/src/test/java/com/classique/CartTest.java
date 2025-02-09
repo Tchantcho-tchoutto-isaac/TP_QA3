@@ -1,6 +1,7 @@
 package com.classique;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
@@ -34,7 +35,7 @@ public class CartTest {
     }
 
 
-     @Tag("removeProduct")
+    @Tag("removeProduct")
     @Test
     public void removeProductFromCartTest() {
         productsPage.addproduit();
@@ -43,7 +44,7 @@ public class CartTest {
 
         cartPage.removeProductFromCart();
 
-        assertFalse(cartPage.isCartEmpty(), "Le panier devrait être vide après avoir supprimé le produit.");
+        assertTrue(cartPage.isCartEmpty(), "Le panier devrait être vide après avoir supprimé le produit.");
 
         System.out.println("Test réussi : produit supprimé du panier.");
     }

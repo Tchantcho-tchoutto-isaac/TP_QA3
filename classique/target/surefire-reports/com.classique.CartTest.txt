@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.classique.CartTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.208 s - in com.classique.CartTest
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.815 s <<< FAILURE! - in com.classique.CartTest
+removeProductFromCartTest  Time elapsed: 6.766 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Le panier devrait être vide après avoir supprimé le produit. ==> expected: <true> but was: <false>
+	at com.classique.CartTest.removeProductFromCartTest(CartTest.java:47)
+

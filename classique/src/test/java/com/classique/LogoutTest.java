@@ -34,7 +34,7 @@ public class LogoutTest {
     }
 
 
-     @Tag("logoutTest")
+    @Tag("logoutTest")
     @Test
     public void LogoutTest() {
         productsPage.menuburgerclick();

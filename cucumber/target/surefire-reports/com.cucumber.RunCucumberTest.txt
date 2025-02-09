@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cucumber.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 53.214 s - in com.cucumber.RunCucumberTest

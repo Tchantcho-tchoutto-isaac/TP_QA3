@@ -27,7 +27,7 @@ public class CartPage {
 
     public boolean isCartEmpty() {
         try {
-            return cartBadge.isDisplayed();
+            return !cartBadge.isDisplayed();
         } catch (Exception e) {
             return false; // Le panier est vide si le badge n'est pas affiché
         }
